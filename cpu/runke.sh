@@ -1,0 +1,3 @@
+bash delet.sh
+./gengaCPU
+./KE -pmin 0 -pmax 2048000 -in test

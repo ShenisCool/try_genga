@@ -1,0 +1,70 @@
+Start GENGA
+initial error = 0 = no error
+set Flags error = 0 = no error
+There are 1 CUDA devices.
+Runtime Version: 12010
+Driver Version: 12020
+Name: NVIDIA GeForce RTX 4080, Major:8, Minor:9, Max threads per Block:1024, Max x dim:1024, #Multiprocessors:76, Can Map Memory:1, Clock Rate:2550000, Memory Clock Rate:11201000, Can Overlap:1, Concurrent Kernels:1, regsPerBlock:65536, sharedMemPerBlock:49152, warp size:32
+CPU malloc error = 0 = no error
+CPU HostAlloc error = 0 = no error
+cudaMalloc error = 0 = no error
+mapping error = 0 = no error
+FGAlloc error = 0 = no error
+cudaMemcopy error = 0 = no error
+Energy error = 0 = no error
+Gas Table error = 0 = no error
+Reached timestep 1000 with 1 bodies, 0 test particles. Total Energy: -4.9318718039520661055e-11
+Reached timestep 2000 with 1 bodies, 0 test particles. Total Energy: -4.931871803909092134e-11
+Reached timestep 3000 with 1 bodies, 0 test particles. Total Energy: -4.9318718038662797212e-11
+Reached timestep 4000 with 1 bodies, 0 test particles. Total Energy: -4.9318718038235112524e-11
+Reached timestep 5000 with 1 bodies, 0 test particles. Total Energy: -4.9318718037808584596e-11
+Reached timestep 6000 with 1 bodies, 0 test particles. Total Energy: -4.9318718037381765862e-11
+Reached timestep 7000 with 1 bodies, 0 test particles. Total Energy: -4.9318718036956439931e-11
+Reached timestep 8000 with 1 bodies, 0 test particles. Total Energy: -4.9318718036532063965e-11
+Reached timestep 9000 with 1 bodies, 0 test particles. Total Energy: -4.9318718036108004654e-11
+Reached timestep 10000 with 1 bodies, 0 test particles. Total Energy: -4.9318718035683951805e-11
+Reached timestep 11000 with 1 bodies, 0 test particles. Total Energy: -4.9318718035261075104e-11
+Reached timestep 12000 with 1 bodies, 0 test particles. Total Energy: -4.9318718034838728315e-11
+Reached timestep 13000 with 1 bodies, 0 test particles. Total Energy: -4.9318718034416711107e-11
+Reached timestep 14000 with 1 bodies, 0 test particles. Total Energy: -4.9318718033994803758e-11
+Reached timestep 15000 with 1 bodies, 0 test particles. Total Energy: -4.9318718033574621856e-11
+Reached timestep 16000 with 1 bodies, 0 test particles. Total Energy: -4.9318718033155292984e-11
+Reached timestep 17000 with 1 bodies, 0 test particles. Total Energy: -4.9318718032736229069e-11
+Reached timestep 18000 with 1 bodies, 0 test particles. Total Energy: -4.9318718032317985872e-11
+GENGA is interrupted by SIGINT signal at time step 18829
+Reached timestep 18829 with 1 bodies, 0 test particles. Total Energy: -4.9318718031971720312e-11
+GENGA is terminated by SIGINT signal at time step 18829
+
+ 
+ **************************************** 
+ 
+Restart GENGA
+initial error = 0 = no error
+set Flags error = 0 = no error
+There are 1 CUDA devices.
+Runtime Version: 12010
+Driver Version: 12020
+Name: NVIDIA GeForce RTX 4080, Major:8, Minor:9, Max threads per Block:1024, Max x dim:1024, #Multiprocessors:76, Can Map Memory:1, Clock Rate:2550000, Memory Clock Rate:11201000, Can Overlap:1, Concurrent Kernels:1, regsPerBlock:65536, sharedMemPerBlock:49152, warp size:32
+CPU malloc error = 0 = no error
+CPU HostAlloc error = 0 = no error
+cudaMalloc error = 0 = no error
+mapping error = 0 = no error
+FGAlloc error = 0 = no error
+cudaMemcopy error = 0 = no error
+Energy error = 0 = no error
+Gas Table error = 0 = no error
+Reached timestep 19000 with 1 bodies, 0 test particles. Total Energy: -4.9318718031900285512e-11
+Reached timestep 20000 with 1 bodies, 0 test particles. Total Energy: -4.9318718031483974557e-11
+Reached timestep 21000 with 1 bodies, 0 test particles. Total Energy: -4.9318718031067321097e-11
+Reached timestep 22000 with 1 bodies, 0 test particles. Total Energy: -4.9318718030651688689e-11
+Reached timestep 23000 with 1 bodies, 0 test particles. Total Energy: -4.9318718030236760676e-11
+Reached timestep 24000 with 1 bodies, 0 test particles. Total Energy: -4.9318718029822175168e-11
+Reached timestep 25000 with 1 bodies, 0 test particles. Total Energy: -4.9318718029408171272e-11
+Reached timestep 26000 with 1 bodies, 0 test particles. Total Energy: -4.9318718028994516342e-11
+Reached timestep 27000 with 1 bodies, 0 test particles. Total Energy: -4.9318718028581888926e-11
+Reached timestep 28000 with 1 bodies, 0 test particles. Total Energy: -4.9318718028169494154e-11
+Reached timestep 29000 with 1 bodies, 0 test particles. Total Energy: -4.9318718027758714969e-11
+Reached timestep 30000 with 1 bodies, 0 test particles. Total Energy: -4.9318718027348711266e-11
+GENGA is interrupted by SIGINT signal at time step 30078
+Reached timestep 30078 with 1 bodies, 0 test particles. Total Energy: -4.9318718027316780802e-11
+GENGA is terminated by SIGINT signal at time step 30078

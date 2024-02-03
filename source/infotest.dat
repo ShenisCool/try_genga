@@ -1,0 +1,584 @@
+
+ ******** Simulation path  ********
+
+Genga Version: 3.184
+Mercurial Branch: master
+Mercurial Commit: dffe1054b1cd385ffc048f7b9f31e91813d48cc1
+Build Date: 2023年 11月 28日 星期二 18:13:21 CST
+Build Path: /home/s/genga/source
+Build System: Linux scom 6.2.0-37-generic #38~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov  2 18:01:13 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+Build Compute Capability: SM=89
+Device Name: NVIDIA GeForce RTX 4080, Major:8, Minor:9
+Number of devices: 1
+Device number 0: 0
+Do Kick in single precision: 0
+Serial Grouping: 0
+Do kernel tuning: 1
+Do symplectic level tuning: 1
+Compute Poincare Section: 0
+FormatS: 0
+FormatT: 1
+FormatP: 0
+FormatO: 0
+NmaxM: 32
+Time step in days: 6 
+Starting time: 0 
+Output name: test
+Energy output interval: 1000
+Coordinates output interval: 1000
+Number of outputs per interval: 1
+Coordinate output buffer: 1
+Use Irregular outputs: 0
+Irregular output calendar: -
+Use Transits: 0
+Use RV: 0
+TTV file name: -
+RV file name: -
+Print Transits: 0
+Print RV: 0
+Print MCMC: 0
+MCMC NE: 0
+MCMC Restart: 0
+Integration steps: 10000000
+Central Mass: 1
+Star Radius: 0.00465476
+Star Love Number: 1
+Star fluid Love Number: 1
+Star tau: 0
+Star spin_x: 0
+Star spin_y: 0
+Star spin_z: 0
+Star Ic: 0.4
+J2: 0
+J2 radius: 0
+Solar Constant: 1367
+n1: 3
+n2: 0.4
+Input file: gaslike.dat
+Input file format: x y z m vx vy vz 
+Output file format: t i m r x y z vx vy vz Sx Sy Sz amin amax emin emax aec aecT encc test 
+Use output binary files: 0
+Angle units: 0
+Default rho: 2
+Inner truncation radius: 0.1
+Outer truncation radius: 30
+MaxColl: 120
+pc: 3
+cef: 1
+Number of bodies: 1
+Number of test particles: 0
+Minimal number of bodies: 1
+Minimal number of test particles: 0
+Test Particle Mode: 0
+Particle Minimum Mass : 0
+Symplectic recursion Max levels : 3
+Symplectic recursion levels : 3
+Symplectic recursion sub steps : 2
+Restart time step: 0
+Order of Symplectic integrator: 2
+Maximum encounter pairs: 512
+Nfragments: 0
+Use aeGrid: 0
+aeGrid amin: 0.000000
+aeGrid amax: 5.000000
+aeGrid emin: 0.000000
+aeGrid emax: 1.000000
+aeGrid imin: 0.000000
+aeGrid imax: 0.100000
+aeGrid Na: 10
+aeGrid Ne: 10
+aeGrid Ni: 10
+aeGrid Count Start: 1
+aeGrid name: A
+Use gas disk: 1
+Use gas disk enhancement: 0
+Use gas disk potential: 0
+Use gas disk drag: 2
+Use gas disk tidal damping: 2
+Gas dTau_diss: 10000
+Gas disk inner edge: 0.1
+Gas disk outer edge: 35
+Gas disk grid outer edge: 15
+Gas disk grid dr: 0.1
+Gas alpha: 1.5
+Gas beta: 0.25
+Gas Sigma_10: 2000
+Gas Mgiant: 0.0001
+Use force (Old): 0
+Use GR: 0
+Use Tides: 0
+Use Rotational Deformation: 0
+Use Yarkovsky: 0
+Use Poynting-Robertson: 0
+Radiation Pressure Coefficient Qpr: 1
+Use Migration Force: 0
+Solar Wind factor: 0
+Use Small Collisions: 0
+Create Particles file name: -
+Use Set Elemets function: 0
+Set Elements file name: -
+Gas file name: -
+Report Encounters: 0
+Report Encounters Radius: 3
+Report Encounters Cloud Size: 1
+Stop at close Encounters: 0
+Stop at close Encounter Radius: 1
+Stop at Collision: 0
+Stop collision minimum mass: 0
+Collision precision: 0.0001
+Collision Time Shift: 1
+Collision Model: 0
+Asteroid emissivity: 0.95
+Asteroid density: 3500
+Asteroid specific heat capacity: 680
+Asteroid albedo: 0.2
+Asteroid thermal conductivity: 2.65
+Asteroid collisional velocity V: 5000
+Asteroid minimal fragment radius: 0.01
+Asteroid fragment remove radius: 0.01
+Runtime Version: 12010
+Driver Version: 12020
+
+************* Read initial conditions ****************
+ 
+Starting FG kernel parameters tuning
+	tx:32    	time: 0.000644064009190 s
+	tx:64    	time: 0.000007840000093 s
+	tx:128    	time: 0.000008927999996 s
+	tx:256    	time: 0.000007360000163 s
+Best parameters: tx:256	 time: 0.000007360000163 s
+Starting Rcrit kernel parameters tuning
+	tx:32    	time: 0.000039935998619 s
+	tx:64    	time: 0.000003744000103 s
+	tx:128    	time: 0.000003839999903 s
+	tx:256    	time: 0.000003712000092 s
+Best parameters: tx:256	 time: 0.000003712000092 s
+
+Starting Kick kernel parameters tuning
+kick16c time: 0.000059392001480 s
+p:1    	tx:1    	ty:256    	time: 0.000060320001096 s
+p:1    	tx:1    	ty:128    	time: 0.000038911998272 s
+p:1    	tx:1    	ty:64    	time: 0.000035167999566 s
+p:1    	tx:1    	ty:32    	time: 0.000035808000714 s
+p:1    	tx:1    	ty:16    	time: 0.000034816000611 s
+p:1    	tx:1    	ty:8    	time: 0.000032767999917 s
+p:1    	tx:1    	ty:4    	time: 0.000031743999571 s
+p:1    	tx:1    	ty:2    	time: 0.000031328000128 s
+p:1    	tx:1    	ty:1    	time: 0.000029503999278 s
+p:1    	tx:32    	ty:16    	time: 0.000053376000375 s
+p:1    	tx:32    	ty:8    	time: 0.000036864001304 s
+p:1    	tx:32    	ty:4    	time: 0.000032767999917 s
+p:1    	tx:32    	ty:2    	time: 0.000030719999224 s
+p:1    	tx:32    	ty:1    	time: 0.000029696000740 s
+p:1    	tx:128    	ty:4    	time: 0.000036864001304 s
+p:1    	tx:128    	ty:2    	time: 0.000032767999917 s
+p:1    	tx:128    	ty:1    	time: 0.000030592000112 s
+p:1    	tx:256    	ty:2    	time: 0.000035840000957 s
+p:1    	tx:256    	ty:1    	time: 0.000032767999917 s
+p:2    	tx:1    	ty:256    	time: 0.000048128001392 s
+p:2    	tx:1    	ty:128    	time: 0.000045728001744 s
+p:2    	tx:1    	ty:64    	time: 0.000042784001678 s
+p:2    	tx:1    	ty:32    	time: 0.000040959998965 s
+p:2    	tx:1    	ty:16    	time: 0.000038911998272 s
+p:2    	tx:1    	ty:8    	time: 0.000036864001304 s
+p:2    	tx:1    	ty:4    	time: 0.000034816000611 s
+p:2    	tx:1    	ty:2    	time: 0.000032671999186 s
+p:2    	tx:1    	ty:1    	time: 0.000031647998840 s
+p:2    	tx:32    	ty:16    	time: 0.000078847996891 s
+p:2    	tx:32    	ty:8    	time: 0.000045056000352 s
+p:2    	tx:32    	ty:4    	time: 0.000037888001651 s
+p:2    	tx:32    	ty:2    	time: 0.000033023998141 s
+p:2    	tx:32    	ty:1    	time: 0.000031743999571 s
+p:2    	tx:128    	ty:4    	time: 0.000043007999659 s
+p:2    	tx:128    	ty:2    	time: 0.000035744000226 s
+p:2    	tx:128    	ty:1    	time: 0.000032127998769 s
+p:2    	tx:256    	ty:2    	time: 0.000041152000427 s
+p:2    	tx:256    	ty:1    	time: 0.000034816000611 s
+p:4    	tx:1    	ty:256    	time: 0.000067584000528 s
+p:4    	tx:1    	ty:128    	time: 0.000061439998448 s
+p:4    	tx:1    	ty:64    	time: 0.000056671999395 s
+p:4    	tx:1    	ty:32    	time: 0.000052223999053 s
+p:4    	tx:1    	ty:16    	time: 0.000049152001739 s
+p:4    	tx:1    	ty:8    	time: 0.000044032000005 s
+p:4    	tx:1    	ty:4    	time: 0.000041855998337 s
+p:4    	tx:1    	ty:2    	time: 0.000037888001651 s
+p:4    	tx:1    	ty:1    	time: 0.000033792000264 s
+p:4    	tx:32    	ty:16    	time: 0.000128000006080 s
+p:4    	tx:32    	ty:8    	time: 0.000063263997436 s
+p:4    	tx:32    	ty:4    	time: 0.000045056000352 s
+p:4    	tx:32    	ty:2    	time: 0.000037888001651 s
+p:4    	tx:32    	ty:1    	time: 0.000033792000264 s
+p:4    	tx:128    	ty:4    	time: 0.000057344000787 s
+p:4    	tx:128    	ty:2    	time: 0.000041983999312 s
+p:4    	tx:128    	ty:1    	time: 0.000035840000957 s
+p:4    	tx:256    	ty:2    	time: 0.000050175998360 s
+p:4    	tx:256    	ty:1    	time: 0.000037888001651 s
+Best parameters: p:1	 tx:1	 ty:1	 time: 0.000029503999278 s
+Total acc4C + kick32Ab time: 0.000072704002261 s
+Use kick kernel
+Starting Force kernel parameters tuning
+	tx:32    	time: 0.000024576000869 s
+	tx:64    	time: 0.000003199999919 s
+	tx:128    	time: 0.000003072000109 s
+	tx:256    	time: 0.000003072000109 s
+Best parameters: tx:128	 time: 0.000003072000109 s
+
+Starting close-encounter parameters tuning
+    Precheck-pairs:    0
+    Precheck-pairs:    0
+    Precheck-pairs:    0
+    Precheck-pairs:    0
+    Precheck-pairs:    0
+    Precheck-pairs:    0
+    Precheck-pairs:    0
+    Precheck-pairs:    0
+    Precheck-pairs:    0
+
+Best parameters: Symplectic levels: 1, Symplectic sub steps: 2,  1000.000000000000000 s
+
+Initial Precheck pairs: 0
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 1000 with 1 bodies, 0 test particles. Total Energy: -4.9318718039520661055e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 2000 with 1 bodies, 0 test particles. Total Energy: -4.931871803909092134e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 3000 with 1 bodies, 0 test particles. Total Energy: -4.9318718038662797212e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 4000 with 1 bodies, 0 test particles. Total Energy: -4.9318718038235112524e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 5000 with 1 bodies, 0 test particles. Total Energy: -4.9318718037808584596e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 6000 with 1 bodies, 0 test particles. Total Energy: -4.9318718037381765862e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 7000 with 1 bodies, 0 test particles. Total Energy: -4.9318718036956439931e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 8000 with 1 bodies, 0 test particles. Total Energy: -4.9318718036532063965e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 9000 with 1 bodies, 0 test particles. Total Energy: -4.9318718036108004654e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 10000 with 1 bodies, 0 test particles. Total Energy: -4.9318718035683951805e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 11000 with 1 bodies, 0 test particles. Total Energy: -4.9318718035261075104e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 12000 with 1 bodies, 0 test particles. Total Energy: -4.9318718034838728315e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 13000 with 1 bodies, 0 test particles. Total Energy: -4.9318718034416711107e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 14000 with 1 bodies, 0 test particles. Total Energy: -4.9318718033994803758e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 15000 with 1 bodies, 0 test particles. Total Energy: -4.9318718033574621856e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 16000 with 1 bodies, 0 test particles. Total Energy: -4.9318718033155292984e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 17000 with 1 bodies, 0 test particles. Total Energy: -4.9318718032736229069e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 18000 with 1 bodies, 0 test particles. Total Energy: -4.9318718032317985872e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+GENGA is terminated by SIGINT signal at time step 18829
+Reached timestep 18829 with 1 bodies, 0 test particles. Total Energy: -4.9318718031971720312e-11
+
+
+
+************** Restart Simulation at time step 18829 *******************
+
+ ******** Simulation path  ********
+
+Genga Version: 3.184
+Mercurial Branch: master
+Mercurial Commit: dffe1054b1cd385ffc048f7b9f31e91813d48cc1
+Build Date: 2023年 11月 28日 星期二 18:13:21 CST
+Build Path: /home/s/genga/source
+Build System: Linux scom 6.2.0-37-generic #38~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov  2 18:01:13 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+Build Compute Capability: SM=89
+Device Name: NVIDIA GeForce RTX 4080, Major:8, Minor:9
+Number of devices: 1
+Device number 0: 0
+Do Kick in single precision: 0
+Serial Grouping: 0
+Do kernel tuning: 1
+Do symplectic level tuning: 1
+Compute Poincare Section: 0
+FormatS: 0
+FormatT: 1
+FormatP: 0
+FormatO: 0
+NmaxM: 32
+Time step in days: 6 
+Starting time: 0 
+Output name: test
+Energy output interval: 1000
+Coordinates output interval: 1000
+Number of outputs per interval: 1
+Coordinate output buffer: 1
+Use Irregular outputs: 0
+Irregular output calendar: -
+Use Transits: 0
+Use RV: 0
+TTV file name: -
+RV file name: -
+Print Transits: 0
+Print RV: 0
+Print MCMC: 0
+MCMC NE: 0
+MCMC Restart: 0
+Integration steps: 10000000
+Central Mass: 1
+Star Radius: 0.00465476
+Star Love Number: 1
+Star fluid Love Number: 1
+Star tau: 0
+Star spin_x: 0
+Star spin_y: 0
+Star spin_z: 0
+Star Ic: 0.4
+J2: 0
+J2 radius: 0
+Solar Constant: 1367
+n1: 3
+n2: 0.4
+Input file: gaslike.dat
+Input file format: x y z m vx vy vz 
+Output file format: t i m r x y z vx vy vz Sx Sy Sz amin amax emin emax aec aecT encc test 
+Use output binary files: 0
+Angle units: 0
+Default rho: 2
+Inner truncation radius: 0.1
+Outer truncation radius: 30
+MaxColl: 120
+pc: 3
+cef: 1
+Number of bodies: 1
+Number of test particles: 0
+Minimal number of bodies: 1
+Minimal number of test particles: 0
+Test Particle Mode: 0
+Particle Minimum Mass : 0
+Symplectic recursion Max levels : 3
+Symplectic recursion levels : 3
+Symplectic recursion sub steps : 2
+Restart time step: 18829
+Order of Symplectic integrator: 2
+Maximum encounter pairs: 512
+Nfragments: 0
+Use aeGrid: 0
+aeGrid amin: 0.000000
+aeGrid amax: 5.000000
+aeGrid emin: 0.000000
+aeGrid emax: 1.000000
+aeGrid imin: 0.000000
+aeGrid imax: 0.100000
+aeGrid Na: 10
+aeGrid Ne: 10
+aeGrid Ni: 10
+aeGrid Count Start: 1
+aeGrid name: A
+Use gas disk: 1
+Use gas disk enhancement: 0
+Use gas disk potential: 0
+Use gas disk drag: 2
+Use gas disk tidal damping: 2
+Gas dTau_diss: 10000
+Gas disk inner edge: 0.1
+Gas disk outer edge: 35
+Gas disk grid outer edge: 15
+Gas disk grid dr: 0.1
+Gas alpha: 1.5
+Gas beta: 0.25
+Gas Sigma_10: 2000
+Gas Mgiant: 0.0001
+Use force (Old): 0
+Use GR: 0
+Use Tides: 0
+Use Rotational Deformation: 0
+Use Yarkovsky: 0
+Use Poynting-Robertson: 0
+Radiation Pressure Coefficient Qpr: 1
+Use Migration Force: 0
+Solar Wind factor: 0
+Use Small Collisions: 0
+Create Particles file name: -
+Use Set Elemets function: 0
+Set Elements file name: -
+Gas file name: -
+Report Encounters: 0
+Report Encounters Radius: 3
+Report Encounters Cloud Size: 1
+Stop at close Encounters: 0
+Stop at close Encounter Radius: 1
+Stop at Collision: 0
+Stop collision minimum mass: 0
+Collision precision: 0.0001
+Collision Time Shift: 1
+Collision Model: 0
+Asteroid emissivity: 0.95
+Asteroid density: 3500
+Asteroid specific heat capacity: 680
+Asteroid albedo: 0.2
+Asteroid thermal conductivity: 2.65
+Asteroid collisional velocity V: 5000
+Asteroid minimal fragment radius: 0.01
+Asteroid fragment remove radius: 0.01
+Runtime Version: 12010
+Driver Version: 12020
+
+************* Read initial conditions ****************
+ 
+Starting FG kernel parameters tuning
+	tx:32    	time: 0.000100224003196 s
+	tx:64    	time: 0.000007968000136 s
+	tx:128    	time: 0.000007391999941 s
+	tx:256    	time: 0.000007168000098 s
+Best parameters: tx:256	 time: 0.000007168000098 s
+Starting Rcrit kernel parameters tuning
+	tx:32    	time: 0.000019711999223 s
+	tx:64    	time: 0.000003391999984 s
+	tx:128    	time: 0.000003199999919 s
+	tx:256    	time: 0.000003712000092 s
+Best parameters: tx:128	 time: 0.000003199999919 s
+
+Starting Kick kernel parameters tuning
+kick16c time: 0.000048128001392 s
+p:1    	tx:1    	ty:256    	time: 0.000056320000440 s
+p:1    	tx:1    	ty:128    	time: 0.000038911998272 s
+p:1    	tx:1    	ty:64    	time: 0.000034816000611 s
+p:1    	tx:1    	ty:32    	time: 0.000035167999566 s
+p:1    	tx:1    	ty:16    	time: 0.000033792000264 s
+p:1    	tx:1    	ty:8    	time: 0.000032767999917 s
+p:1    	tx:1    	ty:4    	time: 0.000031743999571 s
+p:1    	tx:1    	ty:2    	time: 0.000030719999224 s
+p:1    	tx:1    	ty:1    	time: 0.000029696000740 s
+p:1    	tx:32    	ty:16    	time: 0.000053824000061 s
+p:1    	tx:32    	ty:8    	time: 0.000037888001651 s
+p:1    	tx:32    	ty:4    	time: 0.000033792000264 s
+p:1    	tx:32    	ty:2    	time: 0.000031743999571 s
+p:1    	tx:32    	ty:1    	time: 0.000029696000740 s
+p:1    	tx:128    	ty:4    	time: 0.000036864001304 s
+p:1    	tx:128    	ty:2    	time: 0.000032543998212 s
+p:1    	tx:128    	ty:1    	time: 0.000030719999224 s
+p:1    	tx:256    	ty:2    	time: 0.000035840000957 s
+p:1    	tx:256    	ty:1    	time: 0.000032767999917 s
+p:2    	tx:1    	ty:256    	time: 0.000049152001739 s
+p:2    	tx:1    	ty:128    	time: 0.000045056000352 s
+p:2    	tx:1    	ty:64    	time: 0.000043007999659 s
+p:2    	tx:1    	ty:32    	time: 0.000040704000741 s
+p:2    	tx:1    	ty:16    	time: 0.000038911998272 s
+p:2    	tx:1    	ty:8    	time: 0.000037888001651 s
+p:2    	tx:1    	ty:4    	time: 0.000035487998277 s
+p:2    	tx:1    	ty:2    	time: 0.000033408001065 s
+p:2    	tx:1    	ty:1    	time: 0.000031743999571 s
+p:2    	tx:32    	ty:16    	time: 0.000078847996891 s
+p:2    	tx:32    	ty:8    	time: 0.000046080000699 s
+p:2    	tx:32    	ty:4    	time: 0.000036864001304 s
+p:2    	tx:32    	ty:2    	time: 0.000033792000264 s
+p:2    	tx:32    	ty:1    	time: 0.000032032001764 s
+p:2    	tx:128    	ty:4    	time: 0.000044032000005 s
+p:2    	tx:128    	ty:2    	time: 0.000035071998835 s
+p:2    	tx:128    	ty:1    	time: 0.000032767999917 s
+p:2    	tx:256    	ty:2    	time: 0.000040895998478 s
+p:2    	tx:256    	ty:1    	time: 0.000034880001098 s
+p:4    	tx:1    	ty:256    	time: 0.000067584000528 s
+p:4    	tx:1    	ty:128    	time: 0.000060416001827 s
+p:4    	tx:1    	ty:64    	time: 0.000056320000440 s
+p:4    	tx:1    	ty:32    	time: 0.000052223999053 s
+p:4    	tx:1    	ty:16    	time: 0.000049024000764 s
+p:4    	tx:1    	ty:8    	time: 0.000045056000352 s
+p:4    	tx:1    	ty:4    	time: 0.000041087999940 s
+p:4    	tx:1    	ty:2    	time: 0.000036864001304 s
+p:4    	tx:1    	ty:1    	time: 0.000033952001482 s
+p:4    	tx:32    	ty:16    	time: 0.000128000006080 s
+p:4    	tx:32    	ty:8    	time: 0.000063135996461 s
+p:4    	tx:32    	ty:4    	time: 0.000045504000038 s
+p:4    	tx:32    	ty:2    	time: 0.000038911998272 s
+p:4    	tx:32    	ty:1    	time: 0.000033792000264 s
+p:4    	tx:128    	ty:4    	time: 0.000057344000787 s
+p:4    	tx:128    	ty:2    	time: 0.000041632000357 s
+p:4    	tx:128    	ty:1    	time: 0.000034816000611 s
+p:4    	tx:256    	ty:2    	time: 0.000050175998360 s
+p:4    	tx:256    	ty:1    	time: 0.000037888001651 s
+Best parameters: p:1	 tx:1	 ty:1	 time: 0.000029696000740 s
+Total acc4C + kick32Ab time: 0.000080288000405 s
+Use kick kernel
+Starting Force kernel parameters tuning
+	tx:32    	time: 0.000024576000869 s
+	tx:64    	time: 0.000003135999897 s
+	tx:128    	time: 0.000003103999887 s
+	tx:256    	time: 0.000003072000109 s
+Best parameters: tx:256	 time: 0.000003072000109 s
+
+Starting close-encounter parameters tuning
+    Precheck-pairs:    0
+    Precheck-pairs:    0
+    Precheck-pairs:    0
+    Precheck-pairs:    0
+    Precheck-pairs:    0
+    Precheck-pairs:    0
+    Precheck-pairs:    0
+    Precheck-pairs:    0
+    Precheck-pairs:    0
+
+Best parameters: Symplectic levels: 1, Symplectic sub steps: 2,  1000.000000000000000 s
+
+Initial Precheck pairs: 0
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 19000 with 1 bodies, 0 test particles. Total Energy: -4.9318718031900285512e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 20000 with 1 bodies, 0 test particles. Total Energy: -4.9318718031483974557e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 21000 with 1 bodies, 0 test particles. Total Energy: -4.9318718031067321097e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 22000 with 1 bodies, 0 test particles. Total Energy: -4.9318718030651688689e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 23000 with 1 bodies, 0 test particles. Total Energy: -4.9318718030236760676e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 24000 with 1 bodies, 0 test particles. Total Energy: -4.9318718029822175168e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 25000 with 1 bodies, 0 test particles. Total Energy: -4.9318718029408171272e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 26000 with 1 bodies, 0 test particles. Total Energy: -4.9318718028994516342e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 27000 with 1 bodies, 0 test particles. Total Energy: -4.9318718028581888926e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 28000 with 1 bodies, 0 test particles. Total Energy: -4.9318718028169494154e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 29000 with 1 bodies, 0 test particles. Total Energy: -4.9318718027758714969e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+Reached timestep 30000 with 1 bodies, 0 test particles. Total Energy: -4.9318718027348711266e-11
+    CE:    0; groups: 0; 
+    Precheck-pairs:    0
+GENGA is terminated by SIGINT signal at time step 30078
+Reached timestep 30078 with 1 bodies, 0 test particles. Total Energy: -4.9318718027316780802e-11
